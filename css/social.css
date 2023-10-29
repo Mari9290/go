@@ -1,0 +1,40 @@
+
+.social {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social__item {
+    display: block;
+    color: #FFF;
+    width: 50px;
+    height: 50px;
+    outline: 1px solid transparent;
+    outline-offset: 3px;
+    border-radius: 100%;
+    transition-property: color, outline-color;
+    transition-duration: 0.3s, 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+.social__item:hover {
+    color: #cd06ff;
+}
+
+.social__item:active {
+    color: #840AA3;
+}
+
+.social__item:focus {
+    outline-color: #CD06FF;
+}
+
+.social__list {
+    margin-right: 26px;
+    display: inline-block;
+}
+
+.social__list:last-child {
+    margin-right: 0;
+}

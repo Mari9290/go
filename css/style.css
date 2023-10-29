@@ -1,0 +1,102 @@
+@import url(normalize.css);
+@import url(style.css);
+@import url(faq.css);
+@import url(halls.css);
+@import url(about.css);
+@import url(adress.css);
+@import url(first.css);
+@import url(social.css);
+@import url(reviews.css);
+
+html {
+    position: relative;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+box-sizing: inherit;
+}
+
+body {
+    background-color: #1B1A1B;;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    position: relative;
+    overflow-x: hidden;
+    min-width: 320px;
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+    font-size: 16px;
+}
+
+img,
+svg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+svg {
+    max-height: 100%;
+}
+
+button {
+    padding: 0;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+p,
+figure,
+fieldset {
+    margin: 0;
+}
+
+iframe {
+    border: none;
+}
+
+/* .visually-hidden {
+position: fixed;
+transform: scale(0);
+} */
+
+.container {
+    max-width: 1240px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 50px 0;
+}
+
+.title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    text-transform: uppercase;
+    margin: 0 0 50px 0;
+}

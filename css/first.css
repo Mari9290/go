@@ -1,0 +1,27 @@
+.first-screen__logo-text {
+    font-size: 150px;
+    font-weight: 900;
+    line-height: 150px;
+    letter-spacing: -15px;
+    margin: 0;
+}
+
+.first-screen__tagline {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 50px;
+    margin: 0;
+    padding-left: 100px;
+}
+
+.first-screen__container {
+    min-height: 823px;
+    position: relative;
+}
+
+.first-screen__container:after {
+    content: url(../img/header/maninglas.png);
+    position: absolute;
+    bottom: 0px;
+    right: 130px;
+}
