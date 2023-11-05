@@ -8,6 +8,7 @@
 @import url(social.css);
 @import url(reviews.css);
 @import url(header.css);
+@import url(service.css);
 
 html {
     position: relative;
@@ -100,4 +101,5 @@ section {
     line-height: 50px;
     text-transform: uppercase;
     margin: 0 0 50px 0;
+    white-space: pre-line;
 }

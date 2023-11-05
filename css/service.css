@@ -1,0 +1,27 @@
+.service {
+
+}
+.service__image {
+    
+}
+.service__item {
+    position: relative;
+}
+
+.service__text {
+    color: #FFF;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    white-space: pre-line;
+    position: absolute;
+    top: 166px;
+    left: 40px;
+}
+
+.service__list {
+    display: flex;
+    gap: 40px 20px;
+    flex-wrap: wrap;
+}
