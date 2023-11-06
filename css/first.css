@@ -50,7 +50,6 @@
 
 .first-screen__btn-text {
     color: #FFF;
-    font-family: Arial, sans-serif;
     font-size: 26px;
     font-style: normal;
     font-weight: 700;
@@ -78,17 +77,13 @@
 
 .first-screen__card-text {
     color: #CD06FF;
-    font-family: Arial, sans-serif;
     font-size: 75px;
-    font-style: normal;
     font-weight: 900;
-    line-height: normal;
     font-variant: all-small-caps;
 }
 
 .first-screen__card-text-number {
     color: #CD06FF;
-    font-family: Arial, sans-serif;
     font-size: 100px;
     font-weight: 900;
     line-height: normal;
@@ -97,7 +92,6 @@
 .first-screen__card-description {
     color: #FFF;
     text-align: center;
-    font-family: Arial, sans-serif;
     font-size: 30px;
     font-weight: 400;
     line-height: normal;
@@ -106,6 +100,7 @@
 .first-screen__arrow {
     position: absolute;
     bottom: 90px;
-    left: 539px;
+    left: 50%;
+    transform: translateX(-50%);
     z-index: 1;
 }
