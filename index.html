@@ -157,145 +157,277 @@
 
     <section class="reserve" id="reserv">
         <div class="container">
-            <h2 class="title">Забронировать</h2>
-            <form class="reserve__form" action="https://jsonplaceholder.typicode.com/posts" method="post">
+            <h2 class="title">Забронировать зал просто</h2>
+            <form 
+                class="reserve__form clearfix" 
+                action="https://jsonplaceholder.typicode.com/posts"
+                method="post"
+            >
 
                 <h3 class="reserve__title">Выбери зал</h3>
 
-                <fieldset>
-                    <label class="reserve__label-radio" for="vibes">
-                        <input class="reserve__input-radio" type="radio" name="hall" id="vibes" value="80vibes">
+                <fieldset class="reserve__hall">
+                    <label class="reserve__label-hall" for="vibes">
+                        <input 
+                            class="reserve__input-hall" 
+                            type="radio" 
+                            name="hall" 
+                            id="vibes" 
+                            value="80vibes"
+                        >
                         80's vibes
                     </label>
 
-                    <label class="reserve__label-radio" for="starwars">
-                        <input class="reserve__input-radio" type="radio" name="hall" id="starwars" value="starwars">
+                    <label class="reserve__label-hall" for="starwars">
+                        <input 
+                            class="reserve__input-hall" 
+                            type="radio" 
+                            name="hall" 
+                            id="starwars" 
+                            value="starwars"
+                        >
                         Star wars
                     </label>
 
-                    <label class="reserve__label-radio" for="wildwest">
-                        <input class="reserve__input-radio" type="radio" name="hall" id="wildwest" value="wildwest">
+                    <label class="reserve__label-hall" for="wildwest">
+                        <input 
+                            class="reserve__input-hall" 
+                            type="radio" 
+                            name="hall" 
+                            id="wildwest" 
+                            value="wildwest"
+                        >
                         Wild west
                     </label>
 
-                    <label class="reserve__label-radio" for="neon">
-                        <input class="reserve__input-radio" type="radio" name="hall" id="neon" value="neon">
+                    <label class="reserve__label-hall" for="neon">
+                        <input 
+                            class="reserve__input-hall" 
+                            type="radio" 
+                            name="hall" 
+                            id="neon" 
+                            value="neon"
+                        >
                         Neon style
                     </label>
                 </fieldset>
 
-                <fieldset>
+                <fieldset class="reserve__entertainment">
                     <legend class="reserve__title" >Собери набор развлечений</legend>
 
-                    <fieldset>
-                        <legend class="reserve__title" >Приставка</legend>
+                    <fieldset class="reserve__entertainment-set">
+                        <legend class="reserve__title-entertainment">Приставка</legend>
                         <label class="reserve__label-radio" for="playstatio">
-                            <input class="reserve__input-radio" type="radio" name="console" id="playstatio" value="playstatio">
+                            <input 
+                                class="reserve__input-radio" 
+                                type="radio" 
+                                name="console" 
+                                id="playstatio" 
+                                value="playstatio"
+                            >
                             PlayStatio
                         </label>
         
                         <label class="reserve__label-radio" for="sega">
-                            <input class="reserve__input-radio" type="radio" name="console" id="sega" value="sega">
+                            <input 
+                                class="reserve__input-radio" 
+                                type="radio" 
+                                name="console" 
+                                id="sega" 
+                                value="sega"
+                            >
                             Sega Mega Drive
                         </label>
         
                         <label class="reserve__label-radio" for="xbox">
-                            <input class="reserve__input-radio" type="radio" name="console" id="xbox" value="xbox">
+                            <input 
+                                class="reserve__input-radio" 
+                                type="radio" 
+                                name="console" 
+                                id="xbox" 
+                                value="xbox"
+                            >
                             X-box One S
                         </label>
         
                         <label class="reserve__label-radio" for="dendy">
-                            <input class="reserve__input-radio" type="radio" name="console" id="dendy" value="dendy">
+                            <input 
+                                class="reserve__input-radio" 
+                                type="radio" 
+                                name="console" 
+                                id="dendy" 
+                                value="dendy"
+                            >
                             Dendy
                         </label>
                     </fieldset>
 
-                    <fieldset>
-                        <legend class="reserve__title" >Настольные игры</legend>
+                    <fieldset class="reserve__entertainment-set">
+                        <legend class="reserve__title-entertainment">Настольные игры</legend>
 
                         <label class="reserve__label-checkbox" for="jenga">
-                            <input class="reserve__input-checkbox" type="checkbox" name="game" id="jenga" value="jenga">
+                            <input 
+                                class="reserve__input-checkbox" 
+                                type="checkbox" 
+                                name="game" 
+                                id="jenga" 
+                                value="jenga"
+                            >
                             Jenga
                         </label>
 
                         <label class="reserve__label-checkbox" for="monopoly">
-                            <input class="reserve__input-checkbox" type="checkbox" name="game" id="monopoly" value="monopoly">
+                            <input 
+                                class="reserve__input-checkbox" 
+                                type="checkbox" 
+                                name="game" 
+                                id="monopoly" 
+                                value="monopoly"
+                            >
                             Monopoly
                         </label>
 
                         <label class="reserve__label-checkbox" for="munchkin">
-                            <input class="reserve__input-checkbox" type="checkbox" name="game" id="munchkin" value="munchkin">
+                            <input 
+                                class="reserve__input-checkbox" 
+                                type="checkbox" 
+                                name="game" 
+                                id="munchkin" 
+                                value="munchkin
+                            ">
                             Манчикин
                         </label>
 
                         <label class="reserve__label-checkbox" for="alias">
-                            <input class="reserve__input-checkbox" type="checkbox" name="game" id="alias" value="alias">
+                            <input 
+                                class="reserve__input-checkbox" 
+                                type="checkbox" 
+                                name="game" 
+                                id="alias" 
+                                value="alias"
+                            >
                             Alias
                         </label>
                     </fieldset>
 
-                    <fieldset>
-                        <legend class="reserve__title">Дополнительно</legend>
+                    <fieldset class="reserve__entertainment-set">
+                        <legend class="reserve__title-entertainment">Дополнительно</legend>
 
                         <label class="reserve__label-checkbox" for="karaoke">
-                            <input class="reserve__input-checkbox" type="checkbox" name="add" id="karaoke" value="karaoke">
+                            <input 
+                                class="reserve__input-checkbox" 
+                                type="checkbox" 
+                                name="add" 
+                                id="karaoke" 
+                                value="karaoke"
+                            >
                             Караоке
                         </label>
 
                         <label class="reserve__label-checkbox" for="vr">
-                            <input class="reserve__input-checkbox" type="checkbox" name="add" id="vr" value="vr">
+                            <input 
+                                class="reserve__input-checkbox" 
+                                type="checkbox" 
+                                name="add" 
+                                id="vr" 
+                                value="vr"
+                            >
                             VR
                         </label>
                     </fieldset>
-
-                    <fieldset>
+                </fieldset>
+                
+                    <fieldset class="reserve__date">
                         <legend class="reserve__title" >Выбери дату и время</legend>
 
-                        <label class="reserve__label-date" for="date">
-                            <input class="reserve__input-date" type="date" name="date" id="date" required>
-                        </label>
+                        <div class="reserve__content">
+                            <div class="reserve__date-time">
+                                <label class="reserve__label-date" for="date">
+                                    <input 
+                                        class="reserve__input-date" 
+                                        type="date" 
+                                        name="date" 
+                                        id="date" 
+                                        required
+                                        
+                                    >
+                                </label>
 
-                        <label class="reserve__label-time" for="time">
-                            <input class="reserve__input-time" type="time" name="time" id="time" required>
-                        </label>
+                                <label class="reserve__label-time" for="time">
+                                    <input 
+                                        class="reserve__input-time" 
+                                        type="time" 
+                                        name="time" 
+                                        id="time" 
+                                        required
+                                    >
+                                </label>
+                            </div>
 
-                        <label class="reserve__label-text" for="people">
-                            <input class="reserve__input-text" type="text" name="people" id="people" required placeholder="Сколько человек">
-                        </label>
+                            <label class="reserve__label-people" for="people">
+                                <input 
+                                    class="reserve__input-people" 
+                                    type="text" 
+                                    name="people" 
+                                    id="people" 
+                                    required 
+                                    placeholder="Сколько человек"
+                                >
+                            </label>
+                        </div>
+                        <div>
+                            <label class="reserve__label-text" for="namereserv">Имя
+                                <input 
+                                    class="reserve__input-text" 
+                                    type="text" 
+                                    name="namereserv" 
+                                    id="namereserv" 
+                                    required
+                                >
+                            </label>
 
-                        <label class="reserve__label-text" for="namereserv">Имя
-                            <input class="reserve__input-text" type="text" name="namereserv" id="namereserv" required>
-                        </label>
+                            <label class="reserve__label-text" for="surnamereserv">Фамилия
+                                <input 
+                                    class="reserve__input-text" 
+                                    type="text" 
+                                    name="surnamereserv" 
+                                    id="surnamereserv" 
+                                    required
+                                >
+                            </label>
+                        </div>
 
-                        <label class="reserve__label-text" for="surnamereserv">Фамилия
-                            <input class="reserve__input-text" type="text" name="surnamereserv" id="surnamereserv" required>
-                        </label>
+                        <div>
+                            <label class="reserve__label-text" for="phonereserv">Телефон
+                                <input 
+                                    class="reserve__input-tel" 
+                                    type="tel" 
+                                    name="phonereserv" 
+                                    id="phonereserv" 
+                                    required
+                                >
+                            </label>
 
-                        <label class="reserve__label-tel" for="phonereserv">Телефон
-                            <input class="reserve__input-tel" type="tel" name="phonereserv" id="phonereserv" required>
-                        </label>
-
-                        <label class="reserve__label-email" for="mailreserv">E-mail
-                            <input class="reserve__input-email" type="email" name="mailreserv" id="mailreserv" required>
-                        </label>
-
+                            <label class="reserve__label-text" for="mailreserv">E-mail
+                                <input 
+                                    class="reserve__input-email" 
+                                    type="email" 
+                                    name="mailreserv" 
+                                    id="mailreserv" 
+                                    required
+                                >
+                            </label>
+                        </div>
                     </fieldset>
 
                     <button class="reserve__button" type="submit">Забронировать</button>
-                    <label class="reserve__label-checkbox" for="personal">
-                        <input class="reserve__input-checkbox" type="checkbox" name="personal" id="personal" value="personal">
-                        Согласен на обработку персональных данных
-                    </label>
-                </fieldset>
             </form>
         </div>
     </section>
 
     <section class="about" id="about">
         <div class="container">
-            <h2 class="title">
-                О нас
-            </h2>
+            <h2 class="title">О нас</h2>
 
             <div class="about__wrapper">
 

@@ -9,6 +9,7 @@
 @import url(reviews.css);
 @import url(header.css);
 @import url(service.css);
+@import url(reserve.css);
 
 html {
     position: relative;
@@ -73,6 +74,10 @@ p,
 figure,
 fieldset {
     margin: 0;
+}
+
+fieldset {
+    padding: 0;
 }
 
 iframe {

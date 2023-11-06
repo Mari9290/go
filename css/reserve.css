@@ -1,0 +1,171 @@
+.reserve {
+    background: #440F51;
+    padding: 80px 0 80px 0;
+}
+
+.reserve__button {
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    background: #FFF;
+    color: #6C0287;
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    text-transform: uppercase;
+    float: right;
+    margin-right: 100px;
+}
+
+.reserve__input-checkbox {
+    width: 25px;
+    height: 25px;
+    vertical-align: text-top;
+}
+.reserve__input-date,
+.reserve__input-time {
+    width: 134px;
+    height: 52px;
+}
+
+.reserve__label-radio {
+    color: #FFF;
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+
+.reserve__input-radio {
+    width: 27px;
+    height: 27px;
+    vertical-align: text-top;
+}
+
+.reserve__input-tel,
+.reserve__input-people,
+.reserve__input-email {
+    width: 300px;
+    height: 52px;
+}
+
+.reserve__input-text {
+    width: 280px;
+    height: 52px;
+}
+
+.reserve__label-checkbox {
+    color: #FFF;
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.reserve__label-text {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    color: #FFF;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.reserve__label-text:last-child {
+    margin-bottom: 0;
+}
+
+.reserve__label-date {
+    margin-right: 32px;
+}
+.reserve__title {
+    color: #FFF;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    margin-bottom: 40px;
+}
+
+.reserve__entertainment {
+    border: none;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 60px;
+}
+
+.reserve__entertainment-set {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    flex-basis: 280px;
+}
+
+.reserve__title-entertainment {
+    color: #FFF;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    margin-bottom: 24px;
+}
+
+.reserve__date {
+    border: none;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 40px;
+}
+
+.reserve__content {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.reserve__date-time {
+    padding-top: 17px;
+}
+
+.clearfix::after {
+    content: ".";
+    display: block; 
+    clear: both;
+    visibility: hidden;
+    height: 0;
+}
+
+.reserve__input-hall {
+    display: none;
+}
+
+.reserve__label-hall {
+    border-radius: 8px;
+    background: #FFF;
+    width: 250px;
+    height: 55px;
+    color: #000;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    text-transform: uppercase;
+    padding-top: 7px;
+}
+
+.reserve__hall {
+    border: none;
+    display: flex;
+    gap: 60px;
+    margin-bottom: 60px;
+}
