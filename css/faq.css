@@ -35,3 +35,27 @@
     height: 46px;
     float: right;
 }
+
+.faq__item:nth-child(2n+1):hover {
+    
+}
+
+.faq__item:nth-child(2n+1):active {
+
+}
+
+.faq__item:nth-child(2n+1):focus {
+
+}
+
+.faq__item:nth-child(2n):hover {
+
+}
+
+.faq__item:nth-child(2n):active {
+
+}
+
+.faq__item:nth-child(2n):focus {
+
+}

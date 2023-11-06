@@ -30,5 +30,18 @@
     border-radius: 10px;
     border: 3px solid #CD06FF;
     padding: 15px 25px;
+}
 
+.header__btn:hover {
+    border: 3px solid #6C0287;
+    background-color: #6C0287;
+}
+
+.header__btn:active {
+    border: 3px solid #000000;
+    background-color: #640AA3;
+}
+
+.header__btn:focus {
+    background-color: #6C0287;
 }

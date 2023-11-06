@@ -35,6 +35,18 @@
     position: relative;
 }
 
+.first-screen__btn:hover {
+    background-color: #840AA3;
+}
+
+.first-screen__btn:active {
+    background-color: #640AA3;
+}
+
+.first-screen__btn:focus {
+    background-color: #840AA3;
+}
+
 .first-screen__btn::before {
     content: '';
     background: #6C0287;
