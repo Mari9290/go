@@ -116,3 +116,20 @@
     transform: translateX(-50%);
     z-index: 1;
 }
+
+.first-screen__arrow:hover {
+    background-color: #fff;
+    border-radius: 100%;
+    color: #6C0287;
+}
+
+.first-screen__arrow:active {
+    background-color: #CD06FF;
+    border-radius: 100%;
+    color: #fff;
+    border: none;
+}
+
+.first-screen__arrow:focus {
+    outline-color: #CD06FF;
+}

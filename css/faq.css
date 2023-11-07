@@ -22,40 +22,53 @@
     margin: 0;
 }
 
+/* 
 .faq__item:nth-child(2n+1):after {
     content:url(../img/faq/open-purple.svg);
     width: 46px;
     height: 46px;
     float: right;
+    color: #440F51;
+} */
+
+.faq__icon {
+    float: right;
+    color: #440F51;
 }
 
+.faq__icon:hover {
+    background-color: #440F51;
+    border-radius: 100%;
+    color: #fff;
+    cursor: pointer;
+}
+
+.faq__icon:active {
+    color: #440F51;
+    background-color: #fff;
+}
+
+/* 
 .faq__item:nth-child(2n):after {
     content:url(../img/faq/open.svg);
     width: 46px;
     height: 46px;
     float: right;
+} */
+
+.faq__icon-white {
+    float: right;
+    color: #fff;
 }
 
-.faq__item:nth-child(2n+1):hover {
-    
+.faq__icon-white:hover {
+    background-color: #fff;
+    border-radius: 100%;
+    color: #440F51;
+    cursor: pointer;
 }
 
-.faq__item:nth-child(2n+1):active {
-
-}
-
-.faq__item:nth-child(2n+1):focus {
-
-}
-
-.faq__item:nth-child(2n):hover {
-
-}
-
-.faq__item:nth-child(2n):active {
-
-}
-
-.faq__item:nth-child(2n):focus {
-
+.faq__icon-white:active {
+    color: #fff;
+    background-color: #440F51;
 }

@@ -35,10 +35,7 @@
     line-height: normal;
 }
 
-.reserve__input-radio:focus {
-    outline-color: #CD06FF;
-}
-
+.reserve__input-radio:focus, 
 .reserve__input-checkbox:focus {
     outline-color: #CD06FF;
 }
@@ -56,6 +53,8 @@
     height: 52px;
 }
 
+.reserve__label-time,
+.reserve__label-date,
 .reserve__input-tel:focus,
 .reserve__input-people:focus,
 .reserve__input-email:focus,
