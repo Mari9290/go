@@ -34,6 +34,10 @@
     cursor: pointer;
 }
 
+.faq__icon:hover .faq__circle {
+    color: #440F51
+}
+
 .faq__icon:active {
     color: #440F51;
     background-color: #fff;
@@ -53,6 +57,10 @@
     border-radius: 100%;
     color: #440F51;
     cursor: pointer;
+}
+
+.faq__icon-white:hover .faq__circle {
+    color: #fff;
 }
 
 .faq__icon-white:active {
