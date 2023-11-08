@@ -45,3 +45,19 @@
 .header__btn:focus {
     background-color: #6C0287;
 }
+
+.navigation__link:hover {
+    background-color: #6C0287;
+    border-radius: 10px;
+}
+
+.navigation__link:active {
+    background-color: #640AA3;
+    border-radius: 10px;
+}
+
+.navigation__link:focus {
+    background-color: #6C0287;
+    border-radius: 10px;
+}
+

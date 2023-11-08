@@ -17,10 +17,26 @@
     margin-right: 100px;
 }
 
+.reserve__button:hover {
+    border: 3px solid #6C0287;
+    background-color: #EADEED;
+}
+
+.reserve__button:active {
+    background: #EADEED;
+    border: none;
+}
+
+.reserve__button:focus {
+    border: 3px solid #6C0287;
+    background: #FFF;
+}
+
 .reserve__input-checkbox {
     width: 25px;
     height: 25px;
     vertical-align: text-top;
+    outline: 1px solid transparent;
 }
 .reserve__input-date,
 .reserve__input-time {
@@ -44,6 +60,7 @@
     width: 27px;
     height: 27px;
     vertical-align: text-top;
+    outline: 1px solid transparent;
 }
 
 .reserve__input-tel,
@@ -53,8 +70,17 @@
     height: 52px;
 }
 
-.reserve__label-time,
-.reserve__label-date,
+.reserve__input-time,
+.reserve__input-date,
+.reserve__input-tel,
+.reserve__input-people,
+.reserve__input-email,
+.reserve__input-text {
+    outline: 1px solid transparent;
+}
+
+.reserve__input-time:focus,
+.reserve__input-date:focus,
 .reserve__input-tel:focus,
 .reserve__input-people:focus,
 .reserve__input-email:focus,

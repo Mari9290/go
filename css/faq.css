@@ -22,15 +22,6 @@
     margin: 0;
 }
 
-/* 
-.faq__item:nth-child(2n+1):after {
-    content:url(../img/faq/open-purple.svg);
-    width: 46px;
-    height: 46px;
-    float: right;
-    color: #440F51;
-} */
-
 .faq__icon {
     float: right;
     color: #440F51;
@@ -48,13 +39,9 @@
     background-color: #fff;
 }
 
-/* 
-.faq__item:nth-child(2n):after {
-    content:url(../img/faq/open.svg);
-    width: 46px;
-    height: 46px;
-    float: right;
-} */
+.faq__icon:active .faq__minus {
+    color: transparent;
+}
 
 .faq__icon-white {
     float: right;
@@ -71,4 +58,8 @@
 .faq__icon-white:active {
     color: #fff;
     background-color: #440F51;
+}
+
+.faq__icon-white:active .faq__minus {
+    color: transparent;
 }
