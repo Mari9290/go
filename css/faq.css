@@ -32,6 +32,9 @@
     border-radius: 100%;
     color: #fff;
     cursor: pointer;
+    transition: background-color 0.2s ease, 
+    border 0.3s ease,
+    color 0.2s ease;
 }
 
 .faq__icon:hover .faq__circle {
@@ -41,10 +44,12 @@
 .faq__icon:active {
     color: #440F51;
     background-color: #fff;
+    transition: background-color 0.2s ease, color 0.3s ease;
 }
 
 .faq__icon:active .faq__minus {
     color: transparent;
+    transition: color 0.3s ease;
 }
 
 .faq__icon-white {
@@ -57,17 +62,23 @@
     border-radius: 100%;
     color: #440F51;
     cursor: pointer;
+    transition: background-color 0.2s ease, 
+    border 0.3s ease,
+    color 0.2s ease;
 }
 
 .faq__icon-white:hover .faq__circle {
     color: #fff;
+    transition: color 0.3s ease;
 }
 
 .faq__icon-white:active {
     color: #fff;
     background-color: #440F51;
+    transition: background-color 0.2s ease, color 0.3s ease;
 }
 
 .faq__icon-white:active .faq__minus {
     color: transparent;
+    transition: color 0.3s ease;
 }

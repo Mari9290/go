@@ -18,3 +18,9 @@
     gap: 40px 20px;
     flex-wrap: wrap;
 }
+
+.service__item:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+    z-index: 1;
+}

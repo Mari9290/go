@@ -13,22 +13,22 @@
     outline: 1px solid transparent;
     /* outline-offset: 3px; */
     /* border-radius: 100%; */
-    /* transition-property: color, outline-color;
-    transition-duration: 0.3s, 0.2s;
-    transition-timing-function: ease-in-out; */
 }
 
 .social__item:hover {
     color: #EADEED;
+    transition: color 0.3s ease;
 }
 
 .social__item:focus {
     outline-color: #CD06FF;
     color: #EADEED;
+    transition: color 0.3s ease, outline-color 0.2s ease;
 }
 
 .social__item:active {
     color: #CD06FF;
+    transition: color 0.3s ease;
 }
 
 .social__list {
