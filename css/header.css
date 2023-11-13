@@ -14,6 +14,7 @@
     font-weight: 400;
     line-height: 50px;
     text-transform: uppercase;
+    transition: background-color 0.3s ease;
 }
 
 .navigation__list {
@@ -30,40 +31,35 @@
     border-radius: 10px;
     border: 3px solid #CD06FF;
     padding: 15px 25px;
+    transition: background-color 0.3s ease;
 }
 
 .header__btn:hover {
     border: 3px solid #6C0287;
     background-color: #6C0287;
-    transition: background-color 0.3s ease;
 }
 
 .header__btn:active {
     border: 3px solid #000000;
     background-color: #640AA3;
-    transition: background-color 0.3s ease;
 }
 
 .header__btn:focus {
     background-color: #6C0287;
-    transition: background-color 0.3s ease;
 }
 
 .navigation__link:hover {
     background-color: #6C0287;
     border-radius: 10px;
-    transition: background-color 0.3s ease;
 }
 
 .navigation__link:active {
     background-color: #640AA3;
     border-radius: 10px;
-    transition: background-color 0.3s ease;
 }
 
 .navigation__link:focus {
     background-color: #6C0287;
     border-radius: 10px;
-    transition: background-color 0.3s ease;
 }
 

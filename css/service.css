@@ -1,5 +1,6 @@
 .service__item {
     position: relative;
+    transition: transform 0.3s ease;
 }
 
 .service__text {
@@ -21,6 +22,5 @@
 
 .service__item:hover {
     transform: scale(1.1);
-    transition: transform 0.3s ease;
     z-index: 1;
 }

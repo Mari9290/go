@@ -15,24 +15,23 @@
     text-transform: uppercase;
     float: right;
     margin-right: 100px;
+    transition: background-color 0.2s ease, 
+    border 0.3s ease;
 }
 
 .reserve__button:hover {
     border: 3px solid #6C0287;
     background-color: #EADEED;
-    transition: background-color 0.2s ease, border 0.3s ease;
 }
 
 .reserve__button:active {
     background: #EADEED;
     border: none;
-    transition: background-color 0.2s ease, border 0.3s ease;
 }
 
 .reserve__button:focus {
     border: 3px solid #6C0287;
     background: #FFF;
-    transition: background-color 0.2s ease, border 0.3s ease;
 }
 
 .reserve__input-checkbox {
@@ -57,7 +56,6 @@
 .reserve__input-radio:focus, 
 .reserve__input-checkbox:focus {
     outline-color: #CD06FF;
-    transition: outline-color 0.2s ease;
 }
 
 .reserve__input-radio {
@@ -81,6 +79,7 @@
 .reserve__input-email,
 .reserve__input-text {
     outline: 1px solid transparent;
+    transition: outline-color 0.2s ease;
 }
 
 .reserve__input-time:focus,
@@ -90,7 +89,6 @@
 .reserve__input-email:focus,
 .reserve__input-text:focus {
     outline-color: #CD06FF;
-    transition: outline-color 0.2s ease;
 }
 
 .reserve__input-text {
@@ -198,23 +196,21 @@
     line-height: 40px;
     text-transform: uppercase;
     padding-top: 7px;
+    transition: background-color 0.2s ease, border 0.3s ease;
 }
 
 .reserve__label-hall:hover {
     border: 3px solid #640AA3;
     background-color: #EADEED;
-    transition: background-color 0.2s ease, border 0.3s ease;
 }
 
 .reserve__label-hall:active {
     border: 3px solid #FFFFFF;
     background-color: #6C0287;
-    transition: background-color 0.2s ease, border 0.3s ease;
 }
 
 .reserve__label-hall:focus {
     border: 3px solid #6C0287;
-    transition: border 0.3s ease;
 }
 
 .reserve__hall {
