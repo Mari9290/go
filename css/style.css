@@ -23,8 +23,8 @@ box-sizing: inherit;
 }
 
 body {
-    background-color: #1B1A1B;;
-    color: #FFFFFF;
+    background-color: var(--color-background, #1B1A1B);
+    color: var(--color-white, #FFF);
     font-family: Arial, sans-serif;
     position: relative;
     overflow-x: hidden;

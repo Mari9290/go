@@ -7,7 +7,7 @@
 
 .social__item {
     display: block;
-    color: #FFF;
+    color: var(--color-white, #FFF);
     width: 50px;
     height: 50px;
     outline: 1px solid transparent;
@@ -17,16 +17,16 @@
 }
 
 .social__item:hover {
-    color: #EADEED;
+    color: var(--color-light-purple, #EADEED);
 }
 
 .social__item:focus {
-    outline-color: #CD06FF;
-    color: #EADEED;
+    outline-color: var(--color-fuchsia,#CD06FF);
+    color: var(--color-light-purple, #EADEED);
 }
 
 .social__item:active {
-    color: #CD06FF;
+    color: var(--color-fuchsia,#CD06FF);
 }
 
 .social__list {

@@ -34,7 +34,7 @@
 }
 
 .halls__link {
-    color: #FFF;
+    color: var(--color-white, #FFF);
     font-size: 70px;
     font-weight: 700;
     line-height: 80px;

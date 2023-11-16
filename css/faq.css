@@ -3,8 +3,8 @@
 }
 
 .faq__item {
-    background-color: #fff;
-    color: #1C1A1A;
+    background-color: var(--color-white, #FFF);
+    color: var(--color-black, #1C1A1A);
     font-weight: 700;
     font-size: 24px;
     padding: 30px 70px;
@@ -14,8 +14,8 @@
 }
 
 .faq__item:nth-child(2n) {
-    background-color: #440F51;
-    color: #fff;
+    background-color: var(--color-dark-purple, #440F51);
+    color: var(--color-white, #FFF);
 }
 
 .faq__item:last-child {
@@ -24,13 +24,13 @@
 
 .faq__icon {
     float: right;
-    color: #440F51;
+    color: var(--color-dark-purple, #440F51);
 }
 
 .faq__icon:hover {
-    background-color: #440F51;
+    background-color: var(--color-dark-purple, #440F51);
     border-radius: 100%;
-    color: #fff;
+    color: var(--color-white, #FFF);
     cursor: pointer;
     transition: background-color 0.2s ease, 
     border 0.3s ease,
@@ -38,12 +38,12 @@
 }
 
 .faq__icon:hover .faq__circle {
-    color: #440F51
+    color: var(--color-dark-purple, #440F51);
 }
 
 .faq__icon:active {
-    color: #440F51;
-    background-color: #fff;
+    color: var(--color-dark-purple, #440F51);
+    background-color: var(--color-white, #FFF);
     transition: background-color 0.2s ease, color 0.3s ease;
 }
 
@@ -54,13 +54,13 @@
 
 .faq__icon-white {
     float: right;
-    color: #fff;
+    color: var(--color-white, #FFF);
 }
 
 .faq__icon-white:hover {
-    background-color: #fff;
+    background-color: var(--color-white, #FFF);
     border-radius: 100%;
-    color: #440F51;
+    color: var(--color-dark-purple, #440F51);
     cursor: pointer;
     transition: background-color 0.2s ease, 
     border 0.3s ease,
@@ -68,13 +68,13 @@
 }
 
 .faq__icon-white:hover .faq__circle {
-    color: #fff;
+    color: var(--color-white, #FFF);
     transition: color 0.3s ease;
 }
 
 .faq__icon-white:active {
-    color: #fff;
-    background-color: #440F51;
+    color: var(--color-white, #FFF);
+    background-color: var(--color-dark-purple, #440F51);
     transition: background-color 0.2s ease, color 0.3s ease;
 }
 

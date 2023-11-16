@@ -3,8 +3,20 @@
     transition: transform 0.3s ease;
 }
 
+.service__item:nth-child(1), 
+.service__item:nth-child(4),
+.service__item:nth-child(3),
+.service__item:nth-child(6) {
+    transform: translateY(-35px);
+}
+
+.service__item:nth-child(2), 
+.service__item:nth-child(5) {
+    transform: translateY(35px);
+}
+
 .service__text {
-    color: #FFF;
+    color: var(--color-white, #FFF);
     font-size: 20px;
     font-weight: 700;
     line-height: 28px;

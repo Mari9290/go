@@ -29,7 +29,7 @@
 
 .first-screen__btn {
     border-radius: 10px;
-    background: #6C0287;
+    background: var(--color-violet, #6C0287);
     width: 374px;
     height: 80px;
     position: relative;
@@ -37,20 +37,20 @@
 }
 
 .first-screen__btn:hover {
-    background-color: #840AA3;
+    background-color: var(--color-purple, #840AA3);
 }
 
 .first-screen__btn:active {
-    background-color: #640AA3;
+    background-color: var(--color-blue-violet, #640AA3);
 }
 
 .first-screen__btn:focus {
-    background-color: #840AA3;
+    background-color: var(--color-purple, #840AA3);
 }
 
 .first-screen__btn::before {
     content: '';
-    background: #6C0287;
+    background: var(--color-violet, #6C0287);
     filter: blur(10px);
     position: absolute;
     top: 0;
@@ -62,7 +62,7 @@
 }
 
 .first-screen__btn-text {
-    color: #FFF;
+    color: var(--color-white, #FFF);
     font-size: 26px;
     font-style: normal;
     font-weight: 700;
@@ -89,21 +89,21 @@
 }
 
 .first-screen__card-text {
-    color: #CD06FF;
+    color: var(--color-fuchsia,#CD06FF);
     font-size: 75px;
     font-weight: 900;
     font-variant: all-small-caps;
 }
 
 .first-screen__card-text-number {
-    color: #CD06FF;
+    color: var(--color-fuchsia,#CD06FF);
     font-size: 100px;
     font-weight: 900;
     line-height: normal;
 }
 
 .first-screen__card-description {
-    color: #FFF;
+    color: var(--color-white, #FFF);
     text-align: center;
     font-size: 30px;
     font-weight: 400;
@@ -120,21 +120,21 @@
 }
 
 .first-screen__arrow:hover {
-    background-color: #fff;
+    background-color: var(--color-white, #FFF);
     border-radius: 100%;
-    color: #6C0287;
+    color: var(--color-violet, #6C0287);
     transition: background-color 0.2s ease, color 0.3s ease;
 }
 
 .first-screen__arrow:active {
-    background-color: #CD06FF;
+    background-color: var(--color-fuchsia,#CD06FF);
     border-radius: 100%;
-    color: #fff;
+    color: var(--color-white, #FFF);
     border: none;
     transition: background-color 0.2s ease, color 0.3s ease;
 }
 
 .first-screen__arrow:focus {
-    outline-color: #CD06FF;
+    outline-color: var(--color-fuchsia,#CD06FF);
     transition: outline-color 0.2s ease;
 }

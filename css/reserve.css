@@ -1,5 +1,5 @@
 .reserve {
-    background: #440F51;
+    background: var(--color-dark-purple, #440F51);
     padding: 80px 0 80px 0;
 }
 
@@ -7,8 +7,8 @@
     width: 300px;
     height: 60px;
     border-radius: 10px;
-    background: #FFF;
-    color: #6C0287;
+    background: var(--color-white, #FFF);
+    color: var(--color-violet, #6C0287);
     font-size: 22px;
     font-weight: 700;
     line-height: 28px;
@@ -20,18 +20,18 @@
 }
 
 .reserve__button:hover {
-    border: 3px solid #6C0287;
-    background-color: #EADEED;
+    border: 3px solid var(--color-violet, #6C0287);
+    background-color: var(--color-light-purple, #EADEED);
 }
 
 .reserve__button:active {
-    background: #EADEED;
+    background: var(--color-light-purple, #EADEED);
     border: none;
 }
 
 .reserve__button:focus {
-    border: 3px solid #6C0287;
-    background: #FFF;
+    border: 3px solid var(--color-violet, #6C0287);
+    background: var(--color-white, #FFF);
 }
 
 .reserve__input-checkbox {
@@ -47,7 +47,7 @@
 }
 
 .reserve__label-radio {
-    color: #FFF;
+    color: var(--color-white, #FFF);
     font-size: 22px;
     font-weight: 400;
     line-height: normal;
@@ -55,7 +55,7 @@
 
 .reserve__input-radio:focus, 
 .reserve__input-checkbox:focus {
-    outline-color: #CD06FF;
+    outline-color: var(--color-fuchsia,#CD06FF);
 }
 
 .reserve__input-radio {
@@ -88,7 +88,7 @@
 .reserve__input-people:focus,
 .reserve__input-email:focus,
 .reserve__input-text:focus {
-    outline-color: #CD06FF;
+    outline-color: var(--color-fuchsia,#CD06FF);
 }
 
 .reserve__input-text {
@@ -97,7 +97,7 @@
 }
 
 .reserve__label-checkbox {
-    color: #FFF;
+    color: var(--color-white, #FFF);
     font-size: 22px;
     font-weight: 400;
     line-height: normal;
@@ -107,7 +107,7 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
-    color: #FFF;
+    color: var(--color-white, #FFF);
     font-size: 14px;
     font-weight: 700;
     line-height: 16px;
@@ -121,7 +121,7 @@
     margin-right: 32px;
 }
 .reserve__title {
-    color: #FFF;
+    color: var(--color-white, #FFF);
     text-align: center;
     font-size: 24px;
     font-weight: 700;
@@ -146,7 +146,7 @@
 }
 
 .reserve__title-entertainment {
-    color: #FFF;
+    color: var(--color-white, #FFF);
     text-align: left;
     font-size: 24px;
     font-weight: 700;
@@ -186,7 +186,7 @@
 
 .reserve__label-hall {
     border-radius: 8px;
-    background: #FFF;
+    background: var(--color-white, #FFF);
     width: 250px;
     height: 55px;
     color: #000;
@@ -200,17 +200,17 @@
 }
 
 .reserve__label-hall:hover {
-    border: 3px solid #640AA3;
-    background-color: #EADEED;
+    border: 3px solid var(--color-blue-violet, #640AA3);
+    background-color: var(--color-light-purple, #EADEED);
 }
 
 .reserve__label-hall:active {
-    border: 3px solid #FFFFFF;
-    background-color: #6C0287;
+    border: 3px solid var(--color-white, #FFF);
+    background-color: var(--color-violet, #6C0287);
 }
 
 .reserve__label-hall:focus {
-    border: 3px solid #6C0287;
+    border: 3px solid var(--color-violet, #6C0287);
 }
 
 .reserve__hall {

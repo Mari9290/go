@@ -36,7 +36,7 @@
 
 .about__quote-par:after {
     content: '\201D';
-    color: #6C0287;
+    color: var(--color-violet, #6C0287);
     font-size: 44px;
     font-weight: 900;
     line-height: 50px;
@@ -45,7 +45,7 @@
 
 .about__quote-par:before {
     content: '\201C';
-    color: #6C0287;
+    color:  var(--color-violet, #6C0287);
     font-size: 44px;
     font-weight: 900;
     line-height: 50px;
