@@ -6,7 +6,6 @@
     display: inline-block;
     max-width: 200px;
     margin-right: 20px;
-    position: relative;
 }
 
 .reviews__image {
@@ -16,14 +15,21 @@
 }
 
 .reviews__wrap {
+    position: relative;
+}
+
+.reviews__wrap::after {
+    position: absolute;
+    content: "";
+    background: radial-gradient(50% 50% at 50% 50%, 
+    rgba(196, 196, 196, 0.00) 0%, 
+    rgba(108, 2, 135, 0.50) 100%);
+    width: 100%;
     top: 0;
     right: 0;
-    height: 200px;
-    width: 200px;
+    left: 0;
+    bottom: 0;
     border-radius: 100%;
-    background: radial-gradient(50% 50% at 50% 50%, rgba(196, 196, 196, 0.00) 0%, rgba(108, 2, 135, 0.50) 100%);
-    z-index: 1;
-    position: absolute;
 }
 
 .reviews__item {
