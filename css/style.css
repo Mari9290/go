@@ -10,6 +10,7 @@
 @import url(header.css);
 @import url(service.css);
 @import url(reserve.css);
+@import url(footer.css);
 
 html {
     position: relative;
